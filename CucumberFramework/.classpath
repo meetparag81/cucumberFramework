@@ -24,5 +24,16 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Parag/Selenium/selenium jars/Selenium Setup/selenium-java-3.5.3/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/paragb/.m2/repository/org/seleniumhq/selenium/selenium-api/3.7.0/selenium-api-3.7.0.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-api"/>
+			<attribute name="maven.version" value="3.7.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
