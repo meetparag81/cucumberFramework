@@ -7,7 +7,7 @@ And moves to checkout from mini cart
 And personal details on checkout page
 And select same delivery adress
 And select payment Method as "cheque" payment
-And plsce the oeder
+And place the order
 
 
 

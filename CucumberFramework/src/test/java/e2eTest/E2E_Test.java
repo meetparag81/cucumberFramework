@@ -31,7 +31,7 @@ public class E2E_Test
 	Thread.sleep(2000);
 	WebElement addToCart = driver.findElement(By.cssSelector("#single_product_page_container > div.single_product_display.group > div.productcol > form > div.wpsc_buy_button_container.group > div.input-button-buy"));
 	addToCart.click();		
-	
+	Thread.sleep(2000);
 	WebElement cart = driver.findElement(By.cssSelector("#header_cart > a > span.icon"));
 	cart.click();
 	

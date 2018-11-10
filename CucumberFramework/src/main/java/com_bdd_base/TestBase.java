@@ -28,7 +28,7 @@ public class TestBase
 		try
 		{
 			prop = new Properties();
-			 ip = new FileInputStream("C:\\Parag\\Git\\CucumberFramework\\CucumberFramework\\src\\main\\java\\com_bdd_cofig\\config.properties");
+			 ip = new FileInputStream("G:\\Javaprogramming\\cucumberframework11092018\\cucumberFramework\\CucumberFramework\\src\\main\\java\\com_bdd_cofig\\config.properties");
 			try 
 			{
 				prop.load(ip);
@@ -74,16 +74,17 @@ public class TestBase
 		//driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		try
-		{
 		driver.get(prop.getProperty("url"));
+		/*try
+		{
+		
 		}
 		catch(TimeoutException e)
 		{
 			System.out.println("url is not entered");
 			
 		
-	}
+	}*/
 		return new HomePage();
 	}
 	

@@ -69,6 +69,7 @@ public class TestUtil extends TestBase
 		String currentDir = System.getProperty("user.dir");
 		try 
 		{
+			
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots1/" + System.currentTimeMillis() + ".png"));
 		}
 		catch (IOException e) 
