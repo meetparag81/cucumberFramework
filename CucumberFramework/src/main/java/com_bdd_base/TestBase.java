@@ -70,7 +70,14 @@ public class TestBase
 			driver = e_driver;			
 		e_driver.register(eventListener);
 		driver = e_driver;*/
+		/*try
+		{
 		driver.manage().window().maximize();
+		}
+		catch(Exception e)
+		{
+			System.out.println("Window is not maximized");
+		}*/
 		//driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);

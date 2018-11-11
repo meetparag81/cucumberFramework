@@ -18,13 +18,13 @@ import com_bdd_util.TestUtil;
 public class ProductListingPage extends TestBase
 {
 	
-	private @FindAll(@FindBy(how = How.XPATH, using = "//div[@class='article-wrap']/article//following::img"))List<WebElement> productlisting;
+	private @FindAll(@FindBy(how = How.XPATH, using = "//div[@class='article-wrap']/article//following::img"))List<WebElement> prodListing;
 	private @FindBy(name="Buy") WebElement AddToCart;
 	private @FindBy(xpath="(//span[@class='icon'])[1]")WebElement COCart;
 	
 	
 	
-	ProductListingPage()
+	public ProductListingPage()
 	{
 		PageFactory.initElements(driver, this);
 	}
@@ -34,7 +34,7 @@ public class ProductListingPage extends TestBase
 	public void selectProductNo(int productNumber)
 	{
 		
-		 productlisting.get(productNumber).click();
+		 prodListing.get(productNumber).click();
 		
 	}
 	public WebElement ClickonCartbutton(WebElement ele)
